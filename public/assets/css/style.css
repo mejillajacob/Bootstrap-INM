@@ -1,0 +1,343 @@
+body {
+    background-color: #F7F8FC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1em;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+h2 {
+    color: #A4A6B3;
+}
+
+h1 {
+    color: #252733;
+    font-size: 24px;
+
+}
+
+.topbar {
+    margin-bottom: 3em;
+}
+
+.sidebar {
+    width: 140px;
+    padding-bottom: 44em;
+    background-color: #363740;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.sidebar a {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #363740;
+    color: #A4A6B3;
+
+}
+
+.webtitle {
+    margin-top: 41px;
+    margin-bottom: 1.5em;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.search,
+.notif,
+.profilename,
+.profilephoto {
+    float: right;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.profilephoto {
+    width: 3%;
+    margin-top: -0.5em;
+}
+
+.notif {
+    margin-top: -0.3em;
+    border-right: solid 1px #DFE0EB;
+    padding-right: 1.5em;
+}
+
+.profilename {
+    font-size: 0.8em;
+    color: #252733;
+}
+
+
+
+
+
+.list-group-item.active {
+    background-color: rgba(159, 162, 180, 0.185);
+    border: none;
+    border-left: solid #DDE2FF;
+
+}
+
+.progression {
+    text-align: center;
+
+    border: solid 1px #DFE0EB;
+    background-color: white;
+    color: black;
+    padding: 2em 5.85em;
+    border-radius: 10px;
+}
+
+.progressioncenter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+
+}
+
+.graphcenter {
+    padding: 2em 5.85em;
+    text-align: center;
+
+
+}
+
+a span {
+    display: block;
+    justify-content: center;
+}
+
+.graphborder {
+    border: solid 1px #DFE0EB;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.graph-col2 {
+
+    border-left: solid 1px #DFE0EB;
+    background-color: white;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+
+
+}
+
+.graph-col2 a {
+    padding: 2em 5.85em;
+    color: #9FA2B4;
+
+}
+
+.graphnumber,
+.lastgraphnumber {
+    border-bottom: solid 1px #DFE0EB;
+    padding: 1.5em 0;
+}
+
+.lastgraphnumber {
+    border: 0px;
+    padding-bottom: 0px;
+}
+
+.graphpic {
+    margin-left: 2em;
+    width: 90%;
+}
+
+.trends {
+    margin-left: 1em;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.date {
+    margin-left: 1.6em;
+}
+
+.articles {
+    border-bottom: solid 1px #dfe0eb1e;
+}
+
+.list-group-item:not(.articles) {
+    border-bottom: none;
+}
+
+.graphcenter {
+    font-size: 0.9em;
+
+}
+
+.graphnumber {
+    padding-top: 0px;
+    font-size: 1.3em;
+    color: #252733;
+    font-weight: bold;
+}
+
+.lastgraphnumber {
+    padding-top: 0px;
+    font-size: 1.3em;
+    color: #252733;
+    font-weight: bold;
+}
+
+.overview {
+    margin-top: 2em;
+    margin-bottom: -1em;
+    font-weight: bold;
+
+}
+
+.number {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+
+
+
+.date {
+    color: #9FA2B4;
+}
+
+.logo {
+    float: left;
+    margin: -0.5em 1em 0em 1.5em;
+    width: 13%;
+}
+
+.icon {
+    float: left;
+    margin: 0.2em 1.2em 0em 1em;
+    width: 8%;
+}
+
+.list-group-item p {
+    margin-bottom: 0;
+}
+
+
+
+.details {
+    float: right;
+    margin-top: -2em;
+    margin-right: 3em;
+    color: #3751FF;
+}
+
+
+.unresolvedtitle,
+.tasktitle {
+    font-weight: bold;
+}
+
+.unresolved {
+    margin-top: 1.5em;
+    margin-left: 1em;
+
+}
+
+.detailnum {
+    float: right;
+    margin-right: 3em;
+    color: #9FA2B4;
+}
+
+.urgent,
+.new,
+.default,
+.add {
+    float: right;
+    margin-right: 3em;
+    color: white;
+    margin-top: -0.5em;
+    font-size: 0.8em;
+}
+
+
+
+.detailtitle:not(:last-child),
+.taskname:not(:last-child) {
+    border-bottom: solid 1px #DFE0EB;
+
+}
+
+.detailtitle,
+.taskname {
+    padding: 1em 0;
+    margin: 0.5em 0 0.5em 0;
+
+}
+
+.unresolvedcolumn {
+    margin-top: 3em;
+    border: solid 1px #DFE0EB;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 2em;
+}
+
+.taskcolumn {
+    margin-top: 3em;
+    border: solid 1px #DFE0EB;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.group,
+.today {
+    font-size: 0.8em;
+    color: #9FA2B4;
+}
+
+.support {
+    color: #4B506D;
+}
+
+.tasknew {
+    color: #C5C7CD;
+    padding-bottom: 1em;
+    border-bottom: solid 1px #DFE0EB;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 100px;
+    margin-right: 2em;
+    width: 1em;
+}
+
+.progression:hover {
+    color: #3751FF;
+    border-color: #3751FF;
+    transition: all .5s ease;
+}
+
+.graphcenter:hover,
+.graphnumber:hover,
+.lastgraphnumber:hover {
+    color: #3751FF;
+    transition: all .5s ease;
+}
+
+.urgent:hover {
+    color: white;
+}
+
+.list-group-item:hover {
+    background-color: rgba(159, 162, 180, 0.185);
+    border-left: solid #DDE2FF;
+    transition: all .5s ease;
+}
